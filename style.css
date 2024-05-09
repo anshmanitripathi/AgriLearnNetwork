@@ -11,6 +11,11 @@
   font-family: 'Playfair Display', serif;
   }
 
+.quantity::-webkit-inner-spin-button,
+.quantity::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
   :root
   {
     --bg-color:#053314;
@@ -114,7 +119,7 @@
     transform:translateY(0);
   }
  }
-
+ 
  .home-content h3
  {
    font-size: 4.2rem;
